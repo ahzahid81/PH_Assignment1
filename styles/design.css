@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-
+.body{
+    background-color: white;
+    opacity: 50%;
+}
 
 
 .container{
@@ -290,11 +293,12 @@
 }
 
 .contact-title {
-    font-size: 42px;
+    font-size: 97px;
     font-weight: 700;
     color: #000000;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 20px;
+    margin-top: 80px;
 }
 
 .contact-form {
@@ -310,7 +314,8 @@
 }
 
 .form-group label {
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: #000000;
 }
