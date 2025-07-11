@@ -30,18 +30,19 @@
 .logo{
     font-size: 24px;
     font-weight: 700;
-    color: #4E47FF
+    color: #4E47FF;
 }
 
 .signup-btn{
-    background: linear-gradient(90deg, #6C63FF 0%, #4A42E6 100%);
+    background: #4E47FF;
     color: white;
     border: none;
-    padding: 12px 24px;
+    padding: 12px 36px;
     border-radius: 6px;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 16px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    
 }
 
 .signup-btn:hover{
@@ -78,7 +79,7 @@
     color: white;
     padding: 14px 32px;
     border-radius: 6px;
-    font-weight: 600;
+    font-weight: bold;
     cursor: pointer;
     border: none;
     font-size: 16px;
@@ -89,4 +90,342 @@
     background: white;
     color: black;
     transform: translateY(-2px);
+}
+
+.footer {
+    background-color: #0A0A0A;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #4E47FF;
+}
+
+.action {
+    padding: 100px 0;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.action-content {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.action-left {
+    flex: 1;
+}
+
+.action-right {
+    flex: 1;
+    position: relative;
+}
+
+.action-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.action-subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.action-btn {
+    background: #4E47FF;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 40px;
+}
+
+.action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
+}
+
+.action-note {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.6;
+    max-width: 80%;
+}
+
+.action-image {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    background: #4E47FF;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.productive-users {
+    padding: 100px 0;
+    background-color: #F8F9FF;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stat-item {
+    flex: 1;
+    min-width: 200px;
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    font-size: 18px;
+    color: #666666;
+    font-weight: 500;
+}
+
+.contact-section {
+    padding: 100px 0;
+    background-color: #FFFFFF;
+}
+
+.contact-content {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-right {
+    flex: 1;
+}
+
+.contact-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 15px 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #F8F9FF;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4E47FF;
+    box-shadow: 0 0 0 2px rgba(78, 71, 255, 0.2);
+}
+
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-btn {
+    background: #4E47FF;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.contact-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
+}
+
+
+.reviews-section {
+    padding: 100px 0;
+    background-color: #F8F9FF; 
+    text-align: center;
+}
+
+.reviews-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #333; 
+    font-family: 'Raleway', sans-serif;
+}
+
+.review-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; 
+}
+
+.review-card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); 
+    padding: 40px;
+    max-width: 380px; 
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stars {
+    margin-bottom: 15px;
+}
+
+.star {
+    color: #FFC107; 
+    font-size: 24px;
+    margin-right: 2px;
+}
+
+.review-headline {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 25px;
+    flex-grow: 1; 
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    margin-top: auto; 
+}
+
+.reviewer-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.review-date {
+    font-size: 14px;
+    color: #999;
 }
