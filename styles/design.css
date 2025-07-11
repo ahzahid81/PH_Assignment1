@@ -88,6 +88,7 @@
 .signup-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+    background: yellowgreen;
 }
 
 
@@ -169,6 +170,7 @@
     background: white;
     color: black;
     transform: translateY(-2px);
+    background: yellowgreen;
 }
 
 .footer {
@@ -312,6 +314,7 @@
 .action-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
+    background: yellowgreen;
 }
 
 
@@ -513,6 +516,7 @@
 .contact-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
+    background: yellowgreen;
 }
 
 .reviews-section {
