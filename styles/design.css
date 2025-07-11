@@ -36,7 +36,7 @@
     color: #4E47FF;
 }
 
-.signup-btn{
+/* .signup-btn{
     background: #4E47FF;
     color: white;
     border: none;
@@ -51,7 +51,44 @@
 .signup-btn:hover{
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+} */
+
+.signup-btn {
+    position: relative;
+    background: #4E47FF;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    z-index: 1;
 }
+
+.signup-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    transition: left 0.4s ease;
+    z-index: 0;
+}
+
+.signup-btn:hover::before {
+    left: 0;
+}
+
+.signup-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+}
+
 
 .banner{
     width: 100%;
@@ -77,7 +114,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.focus-btn{
+/* .focus-btn{
     background: #4E47FF;
     color: white;
     padding: 14px 32px;
@@ -90,6 +127,43 @@
 }
 
 .focus-btn:hover{
+    background: white;
+    color: black;
+    transform: translateY(-2px);
+} */
+
+.focus-btn {
+    position: relative;
+    background: #4E47FF;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.focus-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    transition: left 0.4s ease;
+    z-index: -1;
+}
+
+.focus-btn:hover::before {
+    left: 0;
+}
+
+.focus-btn:hover {
     background: white;
     color: black;
     transform: translateY(-2px);
@@ -183,7 +257,7 @@
     margin-bottom: 100px;
 }
 
-.action-btn {
+/* .action-btn {
     background: #4E47FF;
     color: white;
     border: none;
@@ -199,7 +273,45 @@
 .action-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
+} */
+.action-btn {
+    position: relative;
+    background: #4E47FF;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1;
 }
+
+.action-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    transition: left 0.4s ease;
+    z-index: -1;
+}
+
+.action-btn:hover::before {
+    left: 0;
+}
+
+.action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
+}
+
 
 .action-note {
     font-size: 14px;
@@ -344,7 +456,7 @@
     resize: vertical;
 }
 
-.contact-btn {
+/* .contact-btn {
     background: #4E47FF;
     color: white;
     border: none;
@@ -361,8 +473,45 @@
 .contact-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
+} */
+
+.contact-btn {
+    position: relative;
+    background: #4E47FF;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    margin-top: 10px;
+    overflow: hidden;
+    z-index: 1;
 }
 
+.contact-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    transition: left 0.4s ease;
+    z-index: -1;
+}
+
+.contact-btn:hover::before {
+    left: 0;
+}
+
+.contact-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
+}
 
 .reviews-section {
     padding: 100px 0;
